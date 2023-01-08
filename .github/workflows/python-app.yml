@@ -29,6 +29,19 @@ jobs:
         pip install flake8 pytest
         pip install numpy
         pip install sklearn
+        pip install scipy
+        pip install matplotlib
+        pip install nlopt
+        pip install cvxopt
+        pip install kiwisolver
+        pip install pillow
+        pip install sklearn
+        pip install fonttools
+        pip install pyparsing
+        pip install python-dateutil
+        pip install packaging
+        pip install cycler
+        pip install six
         pip install topopt
         pip install dolfin
         # if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
